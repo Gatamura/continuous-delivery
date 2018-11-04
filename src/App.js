@@ -5,6 +5,7 @@ class App extends Component {
     return (
       <div className="App">
         <strong>Ola Continuous Delivery</strong>
+        <strong>Ola Continuous Integration</strong>
       </div>
     );
   }
