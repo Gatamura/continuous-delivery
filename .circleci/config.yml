@@ -5,7 +5,7 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - run: yarn run build
+      - run: yarn install && yarn run build
 
 workflows:
   version: 2
